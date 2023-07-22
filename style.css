@@ -1,0 +1,337 @@
+#header, .contact-right form, nav ul li a:hover::after {
+    width: 100%}
+.row, .tab-titles, nav {
+    display: flex;
+}
+.tab-links::after, nav ul li a::after {
+    content: '';
+    height: 3px;
+    position: absolute;
+    transition: .5s;
+    left: 0;
+}
+.achievement, .tab-links, nav ul li a {
+    position: relative;
+}
+.copyright, .layer, .layer a {
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    
+background: #080808;
+    color: #fff;
+}
+#header {
+    height: 100vh;
+    background-image: url(image/AliPic.jpg);
+    background-size: cover;
+    background-position: pointer;
+}
+.container {
+    padding: 10px 10%}
+nav {
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Logo {
+    width: 10px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    background: none;
+    transform: translateY(-10px);
+}
+nav ul li a {
+    color: #0bed25ef;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a::after {
+    width: 0;
+    background: #ff004f;
+    left: 0%;
+    bottom: -6px;
+    position: absolute;
+    
+}
+.header-text {
+    margin-top: 20%;
+    font-size: 40px;
+    color: #e20c0c;
+}
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    color: #e8e6e6;
+}
+.header-text h1 span {
+    color: #00ff4c;
+}
+#about {
+    padding: 80px 0;
+    color: #ababab;
+}
+.row {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1, .contact-left {
+    flex-basis: 35%}
+.about-col-1 img {
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2, .contact-right {
+    flex-basis: 60%}
+.sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.tab-titles {
+    margin: 20px 0 40px;
+}
+.tab-links {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.tab-links::after {
+    width: 100;
+    background: #ff3700;
+    bottom: -8px;
+}
+.btn.btn2, .btn:hover {
+    background: #ff004f;
+}
+.tab-links.active-link::after {
+    width: 50%}
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+.Technical-list div a, .layer a {
+    margin-top: 20px;
+    text-decoration: none;
+}
+.tab-contents ul li span {
+    color: #2816cb;
+    font-size: 14px;
+}
+.tab-contents, nav .fa-solid {
+    display: none;
+}
+.Technical-list, .achievement-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.tab-contents.active-tab {
+    display: block;
+}
+#Technical {
+    padding: 50px 0;
+}
+.Technical-list {
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.Technical-list div {
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background .5s, transform .5s;
+}
+.Technical-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.Technical-list div h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.Technical-list div a {
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+}
+.Technical-list div:hover {
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+#portfolio {
+    padding: 100px 0;
+}
+.achievement-list {
+    grid-gap: 50px;
+    margin-top: 40px;
+}
+.achievement {
+    border-radius: 5px;
+    overflow: hidden;
+}
+.achievement img, .layer {
+    width: 100%;
+    border-radius: 10px;
+}
+.achievement img {
+    display: block;
+    transition: transform .5s;
+}
+.layer {
+    height: 0%;
+    background: linear-gradient(rgba(0, 0, 0, .6), #ff004f);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+justify-content: center;
+    flex-direction: column;
+    font-size: 14px;
+    transition: height .5s;
+}
+#msg, .btn {
+    display: block;
+}
+.layer h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.layer a {
+    color: #ff004f;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    
+width: 60px;
+    height: 60px;
+    border-radius: 50%}
+.achievement:hover img {
+    transform: scale(1.1);
+}
+.achievement:hover .layer {
+    height: 100%}
+.btn {
+    margin: 50px;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    
+color: #fff;
+    transition: background .5s;
+}
+.contact-left p, .social-icons {
+    margin-top: 30px;
+}
+.contact-left p i {
+    color: #600fe2;
+    
+margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #4414b3;
+    
+display: inline-block;
+    transition: transform .5s;
+}
+.social-icons a:hover {
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+.btn.btn2 {
+    display: inline-block;
+}
+form input, form textarea {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: #262626;
+    padding: 15px;
+    
+margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    
+cursor: pointer;
+}
+.copyright {
+    width: 100%;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copyright i {
+    color: #00ff15;
+}
+@media only screen and (max-width:600px) {
+    #header {
+    background-image: url(AliPic.png);
+}
+.header-text {
+    margin-top: 100%;
+    font-size: 16px;
+}
+.header-text h1 {
+    font-size: 30px;
+}
+nav .fa-solid {
+    display: block;
+    font-size: 25px;
+}
+nav ul {
+    background: #80f;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right .5s;
+}
+nav ul li {
+    display: block;
+    margin: 25px;
+}
+nav ul .fa-solid {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+}
+}
+#msg {
+    color: #61b752;
+    margin: -40px;
+}
